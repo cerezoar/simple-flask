@@ -1,14 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aldrin Cerezo</title>
-</head>
+{% block title %}<title>{{ page_title }} | Aldrin Cerezo</title>{% endblock %}
 
-<body>
-    <h1>Aldrin Cerezo</h1>
-</body>
 
-</html>
+{% block content %}
+<h1>Aldrin Cerezo</h1>
+<!--  -->
+<h2>Objective</h2>
+<p>I believe in life long learning and looking to apply this learning to contribute for my personal growth and my
+    company.</p>
+<!--  -->
+<h2>Contact</h2>
+<p>Home Address: B10 L17 Tierra Vista Ayana I, Langkaan I, Dasmarinas City 4114</p>
+<p>Email: aldrincerezo@outlook.com</p>
+<p>Mobile Phone: +63 906-380-6308</p>
+<!--  -->
+<h2>Work History</h2>
+<h3>Analog Devices Inc. General Trias</h4>
+    <h4>Reliaiblity Engineer (July 2022 - Present)</h4>
+
+    <!--  -->
+    <h2>Academic History</h2>
+    <h3>Tertiary Education</h3>
+    <h4>Colegio De Dagupan (2003 - 2008)</h4>
+    <h3>Secondary Education</h3>
+    <h4>Urdaneta City National High School (1999 - 2003)</h4>
+    <h3>Primary Education</h3>
+    <h4>Balite Elementary School (1992 - 1999)</h4>
+    <a href="/about">Go to About Page</a>
+    {% endblock %}
